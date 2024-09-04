@@ -1,3 +1,11 @@
 git config --global user.name"user.name"[setting git user name]
 git config --global user.email"user.email"[setting git user email]
-git add
+git init[to initialise git in current working directory]
+git status[to list all untracked files]
+git add -A[to add all untracked files to staging area]
+git commit -m "command"[to commit with descripitive commit message]
+git remote add remote_name file path[adding remote]
+eg;git remote add demo https://github.com/abhilash-lab/gitdemo.git
+git push remote_name branch
+eg git push demo master 
+git master[current branch name and list all branches]
